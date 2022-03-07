@@ -1,0 +1,51 @@
+  <form>
+            <div class="row">
+                <div class="col-2">
+                    <p>Số thứ nhất: </p>
+                </div>
+                <div class="col-4">
+                    <input type="number" name="first_num" id="first_num" value={{first_num}}>
+                </div>
+                <div class="col-2">
+                    <p><input type="radio" name="calculation" id="plus" value="+">Cộng</p>
+                </div>
+                <div class="col-2">
+                    <p><input type="radio" name="calculation" id="minus" value="-">Trừ</p>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-2">
+                    <p>Số thứ hai: </p>
+                </div>
+                <div class="col-4">
+                    <input type="number" name="second_num" id="second_num" value={{second_num}}>
+                </div>
+                <div class="col-2">
+                    <p><input type="radio" name="calculation" id="multi" value="*">Nhân</p>
+                </div>
+                <div class="col-2">
+                    <p><input type="radio" name="calculation" id="divide" value="/">Chia</p>
+                </div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">
+                    <p>Kết quả: </p>
+                </div>
+                <div class="col-4">
+                    <input type="text" id="result" value={{result}}>
+                </div>
+                <div class="col-2">
+                    <button type="submit" class="calculate-btn">Tính</button>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-2">
+                    <p>Thông báo</p>
+                </div>
+                <div class="col-10">
+                    <p id="notification">{{notification}}</p>
+                </div>
+            </div>
+        </form>

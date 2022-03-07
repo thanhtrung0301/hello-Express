@@ -1,0 +1,20 @@
+body {
+  background-color: rgb(0, 204, 255);
+}
+
+
+.container {
+  width: 700px;
+  margin: 200px auto;
+  background-color:  white;
+}
+
+
+input {
+  margin-right: 5px;
+}
+
+
+#notification {
+  color: red;
+}
